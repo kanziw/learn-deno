@@ -28,3 +28,9 @@ http://localhost:8000/
 ❯ curl localhost:8000
 {"method":"GET","url":"/","proto":"HTTP/1.1","headers":{}}
 ```
+
+## test.ts
+
+```zsh
+❯ denon test -w test.ts
+```
