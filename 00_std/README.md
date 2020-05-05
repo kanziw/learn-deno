@@ -1,4 +1,6 @@
 # std lib
+> [doc](https://doc.deno.land/https/github.com/denoland/deno/releases/latest/download/lib.deno.d.ts)
+> [std lib](https://deno.land/std/)
 
 ```zsh
 ❯ deno https://deno.land/std/examples/welcome.ts
