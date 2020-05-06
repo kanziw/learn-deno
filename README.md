@@ -9,6 +9,16 @@
 ❯ brew install deno
 ```
 
+### [denon](https://deno.land/x/denon/)
+> Denon aims to be the deno replacement for nodemon providing a feature packed and easy to use experience.
+
+```zsh
+❯ deno install denon --allow-read --allow-run https://deno.land/x/denon/denon.ts
+```
+
+ℹ️  Add /Users/kanziw/.deno/bin to PATH
+`export PATH="/Users/kanziw/.deno/bin:$PATH"`
+
 
 ## Contents
 
