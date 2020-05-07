@@ -1,4 +1,4 @@
-import { assertEquals, assertNotEquals, fail, unreachable } from 'https://deno.land/std/testing/asserts.ts'
+import { assertEquals, assertNotEquals, fail, unreachable } from '../deps.ts'
 
 Deno.test('basic', () => {
   assertEquals('hello', 'hello', 'hello is hello')
