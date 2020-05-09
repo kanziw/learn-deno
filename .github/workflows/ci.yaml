@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  - push
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 5
+      - uses: denolib/setup-deno@master
+        with:
+          deno-version: 1.0.0-rc1
+      - run: deno test
